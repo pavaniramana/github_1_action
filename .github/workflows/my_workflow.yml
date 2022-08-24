@@ -7,7 +7,7 @@ on:
  
   workflow_dispatch:
 env:
-  message: "Have a good day"
+  message: "Have a good day_pavani"
 
 
 jobs:
@@ -32,10 +32,7 @@ jobs:
           echo test, and deploy your project.
 
   testing:
-    
     runs-on: ubuntu-latest
-
-  
     steps:
      
       - uses: actions/checkout@v3
