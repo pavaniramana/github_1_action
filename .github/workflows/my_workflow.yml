@@ -32,7 +32,7 @@ jobs:
           echo test, and deploy your project.
 
   testing:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
      
       - uses: actions/checkout@v3
